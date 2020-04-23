@@ -1,0 +1,11 @@
+<div class="Profile">
+    <div class="Profile-content">
+        <div class="Profile-avatar">
+            <img src="https://pbs.twimg.com/profile_images/1245902392106930176/3Nrv5J0b_400x400.jpg" alt="" />
+        </div>
+        <div class="Profile-info">
+            <h2>santiaguf</h2>
+            <span>santiago Bernal</span>
+        </div>
+    </div>
+</div>
