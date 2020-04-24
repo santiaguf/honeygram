@@ -50,13 +50,13 @@
     </div>
     <div class="Share-content">
         <div class="Share-facebook">
-            <a href="https://www.facebook.com/sharer/sharer.php?&u=https://honeygram.aumentada.net" target="_blank">
+            <a href="https://www.facebook.com/sharer/sharer.php?&u=https://michigram.netlify.app/" target="_blank">
             <i class="fab fa-facebook-square" />
             Compartir en Facebook!
         </a>
         </div>
         <div class="Share-whatsapp">
-            <a href="https://api.whatsapp.com/send?&text=mira%20este%20hermoso%20gato%20https://honeygram.aumentada.net" target="_blank">
+            <a href="https://api.whatsapp.com/send?&text=mira%20este%20hermoso%20gato%20https://michigram.netlify.app/" target="_blank">
             <i class="fab fa-whatsapp-square" />
             Compartir en Whatsapp!
         </a>          
