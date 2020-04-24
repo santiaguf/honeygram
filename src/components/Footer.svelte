@@ -13,6 +13,6 @@
 
 <div class="Footer">
     <div class="Footer-container">
-        <div class="footer-copy">© <span id="year">{year}</span> IG clone from Santiago Bernal</div>
+        <div class="footer-copy">© <span id="year">{year}</span> IG clone from <a href="https://sb.js.org/" target="_blank">Santiago Bernal</a></div>
     </div>
 </div>

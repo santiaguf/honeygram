@@ -1,3 +1,8 @@
+<script>
+  export let nickname;
+  export let name;
+</script>
+
 <style>
   .Profile-content {
     display: flex;
@@ -29,8 +34,8 @@
             <img src="https://pbs.twimg.com/profile_images/1245902392106930176/3Nrv5J0b_400x400.jpg" alt="" />
         </div>
         <div class="Profile-info">
-            <h2>santiaguf</h2>
-            <span>santiago Bernal</span>
+            <h2>{nickname}</h2>
+            <span>{name}</span>
         </div>
     </div>
 </div>

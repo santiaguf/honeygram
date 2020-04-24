@@ -1,8 +1,18 @@
 <script>
+    import { onMount } from 'svelte';
     import Header from '../components/Header.svelte';
     import Main from '../components/Main.svelte';
     import Sidebar from '../components/Sidebar.svelte';
     import Timeline from '../components/Timeline.svelte';
+
+    let data = {};
+    //const API = "https://us-central1-pugstagram-co.cloudfunctions.net/data";
+    const API = "https://gist.githubusercontent.com/santiaguf/7145eaeaef5a5454fc461f108cdbf0d7/raw/8761072d683309b771cf11622cb7fc08ec1c8da2/fake-api-honeygram";
+                  
+    onMount(async () => {
+      const response = await fetch(API);
+      data = await response.json();
+    });
 </script>
 
 <style>
@@ -24,6 +34,6 @@
 
 <Header />
     <Main>
-        <Timeline />
-        <Sidebar />
+        <Timeline posts={data.posts} />
+        <Sidebar {...data.user} />
     </Main>
