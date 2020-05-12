@@ -6,9 +6,8 @@
     import Timeline from '../components/Timeline.svelte';
 
     let data = {};
-    //const API = "https://us-central1-pugstagram-co.cloudfunctions.net/data";
-    const API = "https://gist.githubusercontent.com/santiaguf/7145eaeaef5a5454fc461f108cdbf0d7/raw/8761072d683309b771cf11622cb7fc08ec1c8da2/fake-api-honeygram";
-                  
+    const API = "https://gist.githubusercontent.com/santiaguf/7145eaeaef5a5454fc461f108cdbf0d7/raw/e1507fc134a9358b3a007e43de8b5e297f220a65/fake-api-honeygram";
+
     onMount(async () => {
       const response = await fetch(API);
       data = await response.json();
