@@ -10,7 +10,7 @@
   "author": "Santiago Bernal <exactlimon@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^3.24.0"
+    "svelte": "^3.49.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
